@@ -1,0 +1,9 @@
+ZSH_THEME="avit"
+export ZSH=$HOME/.oh-my-zsh
+export PATH="$HOME/.bin:$HOME/.rbenv/bin:$PATH"
+
+source $ZSH/oh-my-zsh.sh
+
+eval "$(rbenv init -)"
+
+. ~/.nvm/nvm.sh
