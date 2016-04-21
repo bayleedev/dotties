@@ -11,3 +11,4 @@ Plug 'tpope/vim-sleuth'
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
 Plug 'elixir-lang/vim-elixir'
+Plug 'mxw/vim-jsx'
