@@ -6,6 +6,8 @@
   cleanup = !git fetch origin && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
   open = !vim -p `git show --pretty="format:" --name-only HEAD`
   work = config user.email "bschmeisser@newrelic.com"
+  fixup = commit --fixup
+  squash = commit --squash
 [core]
   editor = vim
 [filter "lfs"]
