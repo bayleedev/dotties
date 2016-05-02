@@ -12,4 +12,3 @@ Plug 'pmsorhaindo/syntastic-local-eslint.vim'
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
 Plug 'elixir-lang/vim-elixir'
-Plug 'mxw/vim-jsx'
