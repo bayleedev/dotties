@@ -1,0 +1,17 @@
+find_pattern="$1"
+
+items=$(find . -type d -d -maxdepth 3 | ag --nocolor "$find_pattern")
+count=$(echo $items | wc | awk '{print $2}' )
+
+if [ $count -eq 1 ]; then
+  echo "Vroom into: $items"
+  cd $items
+else
+  echo "----------"
+  echo "AMBIGIOUS:"
+  echo "----------"
+  for item in $items; do
+    echo $item
+  done
+  echo "----------"
+fi
