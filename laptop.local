@@ -3,29 +3,18 @@
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 gem_install_or_update 'terminal-profile-manager'
-
 rbenv exec tpm install SolarizedDark
 rbenv exec tpm use SolarizedDark --all --default
 
-brew_tap 'nviennot/tmate'
-brew_install_or_upgrade 'tmate'
-brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
-brew_install_or_upgrade 'ngrok'
-brew_install_or_upgrade 'reattach-to-user-namespace'
+# Gpg
 brew_install_or_upgrade 'gpg'
 
 # Cask
 brew cask install 1password
 brew cask install google-chrome
 brew cask install dropbox
-brew cask install hipchat
+brew cask install slack
 brew cask install alfred
-brew cask install dash
-brew cask install skype
-brew cask install dockertoolbox
-brew cask install steam # Broken on case-sensitive machine
-brew cask install minecraft
 brew cask install pandora
 
 # Allow Terminal to change accessibility options
