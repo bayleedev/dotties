@@ -10,15 +10,12 @@ setnvm() {
    fi
  fi
 }
-
 function cd () { builtin cd "$@" && setnvm; }
 
 source $ZSH/oh-my-zsh.sh
 
 eval "$(rbenv init -)"
 
-vr() {
-   . deepfind $@
-}
-
 . ~/.nvm/nvm.sh
+
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
