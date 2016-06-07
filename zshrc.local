@@ -16,6 +16,9 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(rbenv init -)"
 
-. ~/.nvm/nvm.sh
+alias serve="python -m SimpleHTTPServer 8000"
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
