@@ -2,6 +2,13 @@
   name = Blaine Schmeisser
   email = blainesch@gmail.com
 [alias]
+  aa = add --all
+  ap = add --patch
+  branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes
+  ci = commit -v
+  co = checkout
+  pf = push --force-with-lease
+  st = status
   lg = log --stat --summary --show-signature
   cleanup = !git fetch origin && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
   open = !vim -p `git show --pretty="format:" --name-only HEAD`
@@ -9,8 +16,20 @@
   fixup = commit --fixup
   squash = commit --squash
   review = !sh -c 'reflog-review'
+[color]
+  ui = auto
+[push]
+  default = current
 [core]
   editor = vim
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[merge]
+  ff = only
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f

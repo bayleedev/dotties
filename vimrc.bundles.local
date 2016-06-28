@@ -1,3 +1,5 @@
+call plug#begin('~/.vim/plugged')
+
 " Theme
 Plug 'altercation/vim-colors-solarized'
 
@@ -12,3 +14,13 @@ Plug 'pmsorhaindo/syntastic-local-eslint.vim'
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
 Plug 'elixir-lang/vim-elixir'
+
+" From dotfiles
+Plug 'tpope/vim-fugitive'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'fatih/vim-go'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+
+call plug#end()

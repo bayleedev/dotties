@@ -1,6 +1,6 @@
 ZSH_THEME="avit"
-export ZSH=$HOME/.oh-my-zsh
-export PATH="$HOME/.bin:$HOME/.rbenv/bin:$PATH"
+export ZSH=~/.oh-my-zsh
+export PATH="~/.bin:~/.rbenv/bin:$PATH"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
@@ -18,7 +18,7 @@ eval "$(rbenv init -)"
 
 alias serve="python -m SimpleHTTPServer 8000"
 
-export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="~/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
