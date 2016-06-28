@@ -3,7 +3,7 @@
 ## Install
 
 ~~~
-git clone git@github.com:blainesch/nr-dotfiles.git ~/dotfiles
-git clone git@github.com:blainesch/nr-dotfiles-local.git ~/dotfiles-local
+git clone git@github.com:blainesch/ab-dotfiles.git ~/dotfiles
+git clone git@github.com:blainesch/ab-dotfiles-local.git ~/dotfiles-local
 env RCRC=$HOME/dotfiles-local/rcrc rcup
 ~~~
