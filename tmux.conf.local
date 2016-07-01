@@ -1,10 +1,6 @@
 # leader
 set -g prefix2 C-s
 
-# Use system clipboard
-bind-key -t vi-copy v begin-selection
-bind-key -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
-
 # improve colors
 set -g default-terminal 'screen-256color'
 
@@ -27,3 +23,9 @@ set -g status-fg '#aaaaaa'
 
 # increase scrollback lines
 set -g history-limit 10000
+
+# Mouse support
+set -g mouse on
+
+# Copy
+bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"

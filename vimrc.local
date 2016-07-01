@@ -78,3 +78,6 @@ set numberwidth=5
 
 " ESLint
 let g:syntastic_javascript_checkers = ['eslint']
+
+" Mouse support
+set mouse=a
