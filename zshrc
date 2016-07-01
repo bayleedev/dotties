@@ -1,6 +1,6 @@
 ZSH_THEME="avit"
 export ZSH=~/.oh-my-zsh
-export PATH="~/.bin:~/.rbenv/bin:$PATH"
+export PATH="$HOME/.bin:~/.rbenv/bin:$PATH"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
