@@ -1,6 +1,6 @@
 ZSH_THEME="avit"
 export ZSH=~/.oh-my-zsh
-export PATH="$HOME/.bin:~/.rbenv/bin:$PATH"
+export PATH="$HOME/.bin:$PATH"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
@@ -12,11 +12,6 @@ setnvm() {
 }
 function cd () { builtin cd "$@" && setnvm; }
 
+plugins=(rbenv nvm autojump)
+
 source $ZSH/oh-my-zsh.sh
-
-eval "$(rbenv init -)"
-
-export NVM_DIR="~/.nvm"
-. "$(brew --prefix nvm)/nvm.sh"
-
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
