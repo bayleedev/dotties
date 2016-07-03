@@ -1,6 +1,7 @@
 ZSH_THEME="avit"
-export ZSH=~/.oh-my-zsh
 export PATH="$HOME/.bin:$PATH"
+
+alias ls="exa"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
@@ -13,7 +14,3 @@ setnvm() {
 function cd () { builtin cd "$@" && setnvm; }
 
 plugins=(rbenv nvm autojump)
-
-source $ZSH/oh-my-zsh.sh
-
-alias ls="exa"
