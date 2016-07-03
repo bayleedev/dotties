@@ -1,0 +1,12 @@
+packages:
+  - tinytacoteam/dotties-mouse
+  - tinytacoteam/dotties-javascript
+  - tinytacoteam/dotties-oh-my-zsh
+  - tinytacoteam/dotties-vim
+  - tinytacoteam/dotties-git
+ignore:
+  - readme.md
+  - gpg.md
+bin:
+  - bin/git-ca
+  - bin/replace
