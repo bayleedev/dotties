@@ -15,3 +15,5 @@ function cd () { builtin cd "$@" && setnvm; }
 plugins=(rbenv nvm autojump)
 
 source $ZSH/oh-my-zsh.sh
+
+alias ls="exa"
