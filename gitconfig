@@ -5,6 +5,7 @@
   aa = add --all
   ap = add --patch
   ci = commit -v
+  ca = commit -v --amend
   co = checkout
   pf = push --force-with-lease
   st = status
