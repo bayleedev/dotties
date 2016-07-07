@@ -1,7 +1,6 @@
 packages:
   - tinytacoteam/dotties-mouse
   - tinytacoteam/dotties-javascript
-  - tinytacoteam/dotties-oh-my-zsh
   - tinytacoteam/dotties-vim
   - tinytacoteam/dotties-git
 ignore:

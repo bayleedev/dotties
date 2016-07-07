@@ -1,5 +1,6 @@
 ZSH_THEME="avit"
 export PATH="$HOME/.bin:$PATH"
+export ZSH=~/.oh-my-zsh
 
 alias ls="exa"
 
@@ -14,3 +15,5 @@ setnvm() {
 function cd () { builtin cd "$@" && setnvm; }
 
 plugins=(rbenv nvm autojump)
+
+source $ZSH/oh-my-zsh.sh
