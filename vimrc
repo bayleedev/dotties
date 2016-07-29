@@ -5,6 +5,7 @@ syntax on
 colorscheme solarized
 
 set nowrap
+set synmaxcol=200     " Limit syntax highlighting to lines under 200 chars
 set clipboard=unnamed " Use system clipboard
 set background=dark
 set backspace=2       " Backspace deletes like most programs in insert mode
