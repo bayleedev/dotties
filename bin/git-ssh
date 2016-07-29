@@ -1,1 +1,3 @@
-git remote set-url origin $(git remote -v | ag "\w+\/\w+\.git" -o --nocolor | head -n1 | awk '{print "git@github.com:"$1}')
+#!/bin/sh
+
+git remote set-url origin $(git remote -v | ag "[\w-]+\/[\w-]+(\.git|\s)" -o --nocolor | head -n1 | awk '{print "git@github.com:"$1}')
