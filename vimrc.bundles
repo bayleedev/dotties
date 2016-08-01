@@ -8,6 +8,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ihacklog/HiCursorWords'
 Plug 'tpope/vim-sleuth'
 Plug 'pmsorhaindo/syntastic-local-eslint.vim'
+Plug 'moll/vim-node'
 
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
@@ -16,7 +17,6 @@ Plug 'elixir-lang/vim-elixir'
 " From dotfiles
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'fatih/vim-go'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
