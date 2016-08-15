@@ -4,6 +4,8 @@ let mapleader = " "
 syntax on
 colorscheme solarized
 
+au BufRead,BufNewFile *.es6 setfiletype javascript
+
 set nowrap
 set synmaxcol=200     " Limit syntax highlighting to lines under 200 chars
 set clipboard=unnamed " Use system clipboard
