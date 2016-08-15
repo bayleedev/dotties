@@ -17,3 +17,5 @@ function cd () { builtin cd "$@" && setnvm; }
 plugins=(rbenv nvm autojump)
 
 source $ZSH/oh-my-zsh.sh
+
+[[ -f ~/.zshrc.env ]] && source ~/.zshrc.env
