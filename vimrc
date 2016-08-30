@@ -78,3 +78,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 " Mouse support
 set mouse=a
+
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
