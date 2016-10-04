@@ -61,6 +61,9 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
+" Docs
+nmap K :Dash<CR>\|:redraw!<CR>
+
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright

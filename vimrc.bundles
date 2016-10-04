@@ -9,6 +9,7 @@ Plug 'ihacklog/HiCursorWords'
 Plug 'tpope/vim-sleuth'
 Plug 'pmsorhaindo/syntastic-local-eslint.vim'
 Plug 'moll/vim-node'
+Plug 'rizzatti/dash.vim'
 
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
