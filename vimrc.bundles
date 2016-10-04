@@ -15,6 +15,7 @@ Plug 'rizzatti/dash.vim'
 Plug 'vim-scripts/applescript.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'rust-lang/rust.vim'
+Plug 'leafgarland/typescript-vim'
 
 " From dotfiles
 Plug 'tpope/vim-fugitive'
