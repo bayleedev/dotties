@@ -19,3 +19,8 @@ plugins=(rbenv nvm autojump)
 source $ZSH/oh-my-zsh.sh
 
 [[ -f ~/.zshrc.env ]] && source ~/.zshrc.env
+
+# Link neovim
+ln -sf ~/.vim ~/.config/nvim
+ln -sf ~/.vimrc ~/.vim/init.vim
+alias vim="nvim"
