@@ -3,7 +3,6 @@ Plug 'altercation/vim-colors-solarized'
 
 " Utility
 Plug 'bling/vim-airline'
-Plug 'Lokaltog/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
 Plug 'ihacklog/HiCursorWords'
 Plug 'tpope/vim-sleuth'
