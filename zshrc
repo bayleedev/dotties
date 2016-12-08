@@ -2,8 +2,6 @@ ZSH_THEME="avit"
 export PATH="$HOME/.bin:$PATH"
 export ZSH=~/.oh-my-zsh
 
-alias ls="exa"
-
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
    MYOLDPWD="$PWD";
