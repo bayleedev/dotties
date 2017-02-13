@@ -4,6 +4,7 @@
 [core]
   editor = nvim
 [alias]
+  wip = commit -m "WIP"
   aa = add --all
   ap = add --patch
   ci = commit -v
