@@ -5,6 +5,7 @@
   editor = nvim
 [alias]
   wip = !git commit --no-verify -m \"$(curl -s whatthecommit.com/index.txt)\"
+  retry = !git wip --amend
   aa = add --all
   ap = add --patch
   ci = commit -v
