@@ -1,0 +1,31 @@
+{
+  "hotkey": "cmd+space",
+  "theme": "danielbayerlein/zazu-simple-theme",
+  "displayOn": "detect",
+  "_debug": true,
+  "plugins": [
+    "fracturedloop/zazu-dash",
+    "blainesch/zazu-timer",
+    "tinytacoteam/zazu-file-finder",
+    "chrishelgert/zazu-fkill",
+    "tinytacoteam/zazu-chrome-bookmarks",
+    "tinytacoteam/zazu-calculator",
+    "tinytacoteam/zazu-template",
+    "tinytacoteam/zazu-system",
+    "tinytacoteam/zazu-package-manager",
+    {
+      "name": "tinytacoteam/zazu-fallback",
+      "variables": {
+        "rootSearches": [
+          "google"
+        ]
+      }
+    },
+    {
+      "name": "tinytacoteam/zazu-clipboard",
+      "variables": {
+        "ClipboardKey": "cmd+shift+v"
+      }
+    }
+  ]
+}
