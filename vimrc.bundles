@@ -3,7 +3,7 @@ Plug 'altercation/vim-colors-solarized'
 
 " Utility
 Plug 'bling/vim-airline'
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 Plug 'ihacklog/HiCursorWords'
 Plug 'tpope/vim-sleuth'
 Plug 'pmsorhaindo/syntastic-local-eslint.vim'
