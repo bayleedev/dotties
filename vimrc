@@ -2,7 +2,8 @@
 let mapleader = " "
 
 syntax on
-colorscheme solarized
+" colorscheme solarized
+highlight ColorColumn ctermbg=5
 
 au BufRead,BufNewFile *.es6 setfiletype javascript
 
