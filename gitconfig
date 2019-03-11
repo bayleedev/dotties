@@ -5,9 +5,8 @@
   editor = nvim
 [alias]
   deleteBranches = !git branch --merged | egrep -v '(master|gh-pages)' | xargs git branch -d
-  wip = !git commit --no-verify -m \"$(curl -s whatthecommit.com/index.txt) [skip ci]\"
+  wip = !git commit --no-verify -m \"wip [skip ci]\"
   retry = !git wip --amend
-  reroll = !git wip --amend
   aa = add --all
   ap = add --patch
   ci = commit -v
