@@ -17,7 +17,7 @@
   lg = log --stat --summary --show-signature
   cleanup = !git fetch origin && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
   open = !nvim `git show --pretty="format:" --name-only HEAD`
-  work = config user.email "bschmeisser@newrelic.com"
+  work = config user.email "bschmeisser@greenbits.com"
   fixup = commit --fixup
   squash = commit --squash
   review = !sh -c 'reflog-review'
