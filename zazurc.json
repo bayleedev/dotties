@@ -1,16 +1,11 @@
 {
   "hotkey": "cmd+space",
-  "theme": "danielbayerlein/zazu-simple-theme",
+  "theme": "Eric-Jackson/zazu-clement-theme",
   "displayOn": "detect",
-  "_debug": true,
   "plugins": [
-    "fracturedloop/zazu-dash",
-    "blainesch/zazu-timer",
+    "blainesch/zazu-username-generator",
     "tinytacoteam/zazu-file-finder",
-    "chrishelgert/zazu-fkill",
-    "tinytacoteam/zazu-chrome-bookmarks",
     "tinytacoteam/zazu-calculator",
-    "tinytacoteam/zazu-template",
     "tinytacoteam/zazu-system",
     "tinytacoteam/zazu-package-manager",
     {
