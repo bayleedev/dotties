@@ -5,8 +5,6 @@ syntax on
 " colorscheme solarized
 highlight ColorColumn ctermbg=5
 
-au BufRead,BufNewFile *.es6 setfiletype javascript
-
 set nowrap
 set synmaxcol=200     " Limit syntax highlighting to lines under 200 chars
 set clipboard=unnamed " Use system clipboard
@@ -54,12 +52,6 @@ autocmd VimResized * :wincmd =
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
 
-" Get off my lawn
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
-
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
@@ -80,6 +72,3 @@ set mouse=a
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
-
-" grep the word under the cursor.
-nnoremap <silent> <leader>* :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
