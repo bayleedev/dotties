@@ -3,6 +3,7 @@
   "theme": "Eric-Jackson/zazu-clement-theme",
   "displayOn": "detect",
   "plugins": [
+    "iansinnott/zazu-emoji",
     "blainesch/zazu-username-generator",
     "tinytacoteam/zazu-file-finder",
     "tinytacoteam/zazu-calculator",

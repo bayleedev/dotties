@@ -4,6 +4,7 @@
 [core]
   editor = nvim
 [alias]
+  cb = !git rev-parse --abbrev-ref head | pbcopy
   deleteBranches = !git branch --merged | egrep -v '(master|gh-pages)' | xargs git branch -d
   wip = !git commit --no-verify -m \"wip [skip ci]\"
   retry = !git wip --amend
