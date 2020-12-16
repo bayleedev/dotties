@@ -9,6 +9,7 @@ Plug 'moll/vim-node'
 
 " Syntax Highlighting
 Plug 'yalesov/vim-emblem'
+Plug 'mustache/vim-mustache-handlebars'
 
 " From dotfiles
 Plug 'ctrlpvim/ctrlp.vim'
