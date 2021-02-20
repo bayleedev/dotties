@@ -45,9 +45,6 @@ on appName()
 			return the URL of the active tab of the front window
 		end tell
 	end if
-	tell application appName
-		return appName & " " & the name of the front window
-	end tell
 	return appName
 end appName
 
