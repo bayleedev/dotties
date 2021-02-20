@@ -2,9 +2,6 @@
 
 echo $1 | \
   iconv -t ascii//TRANSLIT | \
-  sed -E 's/[^a-zA-Z0-9-]+//g' | \
-  sed -E 's/^-+|-+$//g' | \
-  sed 's/www//' | \
-  sed 's/https//' | \
-  sed 's/http//' | \
-  tr A-Z a-z
+  tr A-Z a-z | \
+  sed -E 's/[^a-z0-9]+//g' | \
+  sed -E 's/www|https|http//'
