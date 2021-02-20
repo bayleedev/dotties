@@ -4,4 +4,4 @@ echo $1 | \
   iconv -t ascii//TRANSLIT | \
   tr A-Z a-z | \
   sed -E 's/[^a-z0-9]+//g' | \
-  sed -E 's/www|https|http//'
+  sed -E 's/(www|https|http)+//g'
