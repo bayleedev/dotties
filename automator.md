@@ -58,7 +58,9 @@ end appNameSlug
 
 on run {input, parameters}
 	set email to randomString(5) & "." & appNameSlug(15) & "@privaterelay.example.com"
-	tell application "System Events" to keystroke email
+	set the clipboard to email
+	tell application "System Events" to keystroke "v" using command down
+	(* tell application "System Events" to keystroke email *)
 	do shell script "afplay /System/Library/Sounds/Bottle.aiff"
 	return input
 end run
