@@ -1,8 +1,12 @@
+## Setup Automator
+
 * Automator
 * New Quick Action
 * Run AppleScript
 * Paste code from below
 * Save "Generate Email"
+
+## Setup Keyboard shortcut
 
 * System Preferences
 * Keyboard
@@ -11,7 +15,11 @@
 * Generate Email
 * control + command + e
 
-```
+## Code
+
+Download the [Sluggify Binary](./bin/slugify) from this repo.
+
+```applescript
 on randomString(aLength)
 	set randomChars to {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}
 	set aString to ""
