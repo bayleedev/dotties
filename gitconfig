@@ -2,7 +2,7 @@
   name = Baylee Schmeisser
   email = github@baylee.dev
 [core]
-  editor = nvim
+  editor = vim
 [alias]
   cb = !git rev-parse --abbrev-ref head | pbcopy
   deleteBranches = !git branch --merged | egrep -v '(master|gh-pages)' | xargs git branch -d
@@ -17,7 +17,7 @@
   st = status
   lg = log --stat --summary --show-signature
   cleanup = !git fetch origin && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
-  open = !nvim `git show --pretty="format:" --name-only HEAD`
+  open = !vim `git show --pretty="format:" --name-only HEAD`
   work = config user.email "bschmeisser@greenbits.com"
   fixup = commit --fixup
   squash = commit --squash

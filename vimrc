@@ -25,7 +25,7 @@ set shiftround
 set expandtab
 set ignorecase
 set smartcase
-set inccommand=nosplit
+" set inccommand=nosplit
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·

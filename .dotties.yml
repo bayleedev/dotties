@@ -1,10 +1,10 @@
 packages:
-  - tinytacoteam/dotties-mouse
-  - tinytacoteam/dotties-javascript
-  - tinytacoteam/dotties-vim
-  - tinytacoteam/dotties-git
-  - tinytacoteam/dotties-vim-movements
-  - tinytacoteam/dotties-tmux-movements
+  - bayleeadamoss/dotties-mouse
+  - bayleeadamoss/dotties-javascript
+  - bayleeadamoss/dotties-vim
+  - bayleeadamoss/dotties-git
+  - bayleeadamoss/dotties-vim-movements
+  - bayleeadamoss/dotties-tmux-movements
 ignore:
   - readme.md
   - gpg.md

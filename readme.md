@@ -3,7 +3,7 @@
 ## Install
 
 ~~~
-brew tap tinytacoteam/formulae
+brew tap bayleeadamoss/formulae
 brew install dotties
-dotties install blainesch/dotties
+dotties install bayleedev/dotties
 ~~~

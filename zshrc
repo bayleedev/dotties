@@ -20,6 +20,6 @@ source $ZSH/oh-my-zsh.sh
 [[ -f /usr/local/bin/virtualenvwrapper.sh ]] && source /usr/local/bin/virtualenvwrapper.sh
 
 # Link neovim
-ln -sf ~/.vim ~/.config/nvim
-ln -sf ~/.vimrc ~/.vim/init.vim
-alias vim="nvim"
+#ln -sf ~/.vim ~/.config/nvim
+#ln -sf ~/.vimrc ~/.vim/init.vim
+#alias vim="nvim"
