@@ -72,3 +72,8 @@ set mouse=a
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
+
+" Local File
+if filereadable(expand("/Users/baylee.schmeisser/.vimrc.env"))
+  source /Users/baylee.schmeisser/.vimrc.env
+endif
