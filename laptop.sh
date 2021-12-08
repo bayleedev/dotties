@@ -14,7 +14,6 @@ brew install vim
 brew install autojump
 brew install keybase
 brew install the_silver_searcher
-brew install reattach-to-user-namespace
 brew install bayleeadamoss/formulae/dotties
 
 # oh-my-zsh
