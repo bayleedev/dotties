@@ -12,6 +12,7 @@ Plug 'yalesov/vim-emblem'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'jparise/vim-graphql'
 
 " From dotfiles
 Plug 'ctrlpvim/ctrlp.vim'
