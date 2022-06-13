@@ -7,6 +7,8 @@ setnvm() {
    MYOLDPWD="$PWD";
    if [ -e "$PWD/.nvmrc" ]; then
      nvm use
+   elif [ -e "$PWD/.node-version" ]; then
+     nvm use $(cat $PWD/.node-version)
    fi
  fi
 }

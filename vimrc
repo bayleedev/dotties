@@ -1,7 +1,10 @@
 " Leader
 let mapleader = " "
 
+" Use new regular expression engine
 syntax on
+set re=0
+
 " colorscheme solarized
 highlight ColorColumn ctermbg=5
 

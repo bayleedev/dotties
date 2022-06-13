@@ -18,7 +18,7 @@
   lg = log --stat --summary --show-signature
   cleanup = !git fetch origin && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
   open = !vim `git show --pretty="format:" --name-only HEAD`
-  work = config user.email "bschmeisser@greenbits.com"
+  work = config user.email "bschmeisser@netflix.com"
   fixup = commit --fixup
   squash = commit --squash
   review = !sh -c 'reflog-review'
@@ -32,7 +32,3 @@
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
   required = true
-[user]
-  signingkey = 57E503107F50FA84BA5105FD11A8F4AD8451FE76
-[commit]
-  gpgsign = true

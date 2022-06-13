@@ -13,6 +13,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jparise/vim-graphql'
+Plug 'leafgarland/typescript-vim'
 
 " From dotfiles
 Plug 'ctrlpvim/ctrlp.vim'
