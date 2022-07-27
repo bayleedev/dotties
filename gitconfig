@@ -6,7 +6,7 @@
 [alias]
   cb = !git rev-parse --abbrev-ref head | pbcopy
   deleteBranches = !git branch --merged | egrep -v '(master|gh-pages)' | xargs git branch -d
-  wip = !git commit --no-verify -m \"wip [skip ci]\"
+  wip = !git commit --no-verify -m \"wip\"
   retry = !git wip --amend
   aa = add --all
   ap = add --patch
