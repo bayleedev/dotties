@@ -34,3 +34,5 @@
   required = true
 [init]
   defaultBranch = main
+[pager]
+  branch = false
